@@ -16,7 +16,7 @@ minetest.register_node("admintools:barrier", {
     diggable     = true,
     buildable_to = false,
     drop = "admintools:barrier",
-    sounds = default.node_sound_stone_defaults(),
+    sounds = default.node_sound_metal_defaults(),
     groups = {cracky = 1, level = 2},
 })
 
