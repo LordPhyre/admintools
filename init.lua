@@ -5,6 +5,7 @@ admintools_invincible = {}
 admintools_timeouts = {}
 admintools_jumpouts = {}
 
+
 minetest.register_tool("admintools:admin_sword", {
     description = "Admin Sword",
     inventory_image = "admintools_admin_sword.png",
@@ -111,3 +112,6 @@ minetest.register_craftitem("admintools:magicstick", {
     end,
 
 })
+
+
+dofile(minetest.get_modpath("admintools") .. "/nodes.lua")
