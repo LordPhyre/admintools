@@ -118,3 +118,5 @@ minetest.register_craftitem("admintools:magicstick", {
 
 
 dofile(minetest.get_modpath("admintools") .. "/nodes.lua")
+dofile(minetest.get_modpath("admintools") .. "/kstick.lua")
+
