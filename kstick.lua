@@ -1,4 +1,4 @@
-local stick_knockback = 20 --how hard the stick smacks kids. recommended min: 20
+local stick_knockback = 25 --how hard the stick smacks kids. recommended min: 20
 local stick_pointing_distance = 5 --selecting distance of smacking
 admintools_invincible = {}
 admintools_timeouts = {}
