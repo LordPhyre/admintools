@@ -28,6 +28,7 @@ minetest.register_node("admintools:burningair", {
     drawtype = "airlike",
     inventory_image = "admintools_burningair.png",
     wield_image = "admintools_burningair.png",
+    groups = {not_in_creative_inventory = 1},
     paramtype = "light",
     walkable = false,
     buildable_to = true,
