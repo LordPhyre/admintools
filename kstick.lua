@@ -5,8 +5,6 @@ admintools_timeouts = {}
 admintools_jumpouts = {}
 
 
-
-
 minetest.register_craftitem("admintools:knockbackstick", {
     description = "Knockback Stick",
     inventory_image = "admintools_magicstick.png^[colorize:#F200FF:50",
@@ -23,23 +21,6 @@ minetest.register_craftitem("admintools:knockbackstick", {
         local current_time = minetest.get_us_time()/1000000.0
         local time_from_last_push = current_time-last_push_time
         local force = stick_knockback
-            
-            if time_from_last_push > stick_push_timeout then
-            local time_factor = 0
-            if time_from_last_push >= 0.3 and time_from_last_push < 0.4 then
-                time_factor = 4
-            elseif time_from_last_push >=  0.4 and time_from_last_push <  0.5 then
-                time_factor = 9
-            elseif time_from_last_push >= 0.5 and time_from_last_push < 0.7 then
-                time_factor = 14
-
-            elseif time_from_last_push >  0.7 then
-                time_factor = 20
-            elseif time_from_last_push > 2.0 then
-                time_factor = 25
-            end
-            force = stick_knockback + time_factor
-        end
 
         if pointed_thing == nil then return end
         if pointed_thing.type == 'node' then return end
@@ -71,4 +52,3 @@ minetest.register_craftitem("admintools:knockbackstick", {
     end,
 
 })
-
