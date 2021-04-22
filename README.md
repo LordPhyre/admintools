@@ -5,7 +5,7 @@ The Admin Sword allows you to insta-kill people and break tree leaves instantly.
 
 The Admin MultiTool is just that, a MultiTool, and it allows you to break ANY type of block instantly!
 
-The Magic Stick is a really cool item (with an equally cool texture) that allows you to smack people 20-30 blocks!
+The Magic Stick is a really cool item (with an equally cool texture) that allows you to smack people 20-30 blocks and launch yourself into the air!
 (No lag bros)
 
 The Knockback Stick is a common peasant's version of the Magic Stick. It does less damage and cannot act upon the user.
