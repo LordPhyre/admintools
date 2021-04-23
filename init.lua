@@ -1,6 +1,6 @@
-local stick_knockback = 35 --how hard the stick smacks kids. recommended min: 35
-local stick_pointing_distance = 10 --selecting distance of smacking
-local stick_bounce_reach = 15 --selecting distance of bouncing
+local stick_knockback = 40 --how hard the stick smacks kids. recommended min: 35
+local stick_pointing_distance = 69 --selecting distance of smacking
+local stick_bounce_reach = 25 --selecting distance of bouncing
 admintools_invincible = {}
 admintools_timeouts = {}
 admintools_jumpouts = {}
@@ -118,6 +118,5 @@ minetest.register_craftitem("admintools:magicstick", {
 
 
 dofile(minetest.get_modpath("admintools") .. "/nodes.lua")
-dofile(minetest.get_modpath("admintools") .. "/kstick.lua")
 dofile(minetest.get_modpath("admintools") .. "/commands.lua")
 
