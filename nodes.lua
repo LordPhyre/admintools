@@ -38,7 +38,7 @@ minetest.register_node("admintools:burningair", {
     drop = "",
 })
 
-minetest.register_node("admintools_obamium", { --the obamium bloc
+minetest.register_node("admintools:obamium", { --the obamium bloc
     description = "Obamium",
     drawtype = "nodebox",
     tiles = {
