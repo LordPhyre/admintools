@@ -40,16 +40,13 @@ minetest.register_node("admintools:burningair", {
 
 minetest.register_node("admintools:obamium", { --the obamium bloc
     description = "Obamium",
-    drawtype = "nodebox",
+    drawtype = "mesh",
+    mesh = "obamium.obj",
+    sunlight_propagates = true,
     tiles = {
-		"obamiumtop.png",
-		"obamiumbottom.png",
-		"obamiumright.png",
-		"obamiumleft.png",
-		"obamiumback.png",
-		"obamiumfront.png"
+		"obamiumtext.png"
 	},
-    sounds = default.node_sound_ice_defaults(),
+    sounds = default.node_sound_glass_defaults(),
     groups = {fleshy = 1, level = 3},
 })
 
