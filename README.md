@@ -1,7 +1,7 @@
 # admintools
-A Minetest mod that adds cool tools for Admins and stuff.
+## A Minetest mod that adds cool tools for Admins and stuff.
 
-List of features:
+#### List of features:
 The Admin Sword allows you to insta-kill people and break tree leaves instantly.
 
 The Admin MultiTool is just that, a MultiTool, and it allows you to break ANY type of block instantly!
@@ -12,6 +12,6 @@ The Barrier Block is a Minecraft inspired item that adds an *almost* unbreakable
 
 The Burning Air is a invisible fire-like node that cannot be seen or directly broken and does damage. The only way to get rid of it is to place another block on it.
 
-I've incorperated the spectator_mode mod (https://github.com/minetest-mods/spectator_mode) because its SUCH a cool mod! Really useful to detect cheaters as well.
+I've incorperated the spectator_mode mod (https://github.com/minetest-mods/spectator_mode) because it's really useful to detect cheaters.
 
-[Coming Soon!]
+###### *[Coming Soon!]*
