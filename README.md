@@ -1,4 +1,3 @@
-# admintools
 ## A Minetest mod that adds cool tools for Admins and stuff.
 
 ### **List of features:**
