@@ -1,7 +1,7 @@
 # admintools
 ## A Minetest mod that adds cool tools for Admins and stuff.
 
-#### **List of features:**
+### **List of features:**
 The Admin Sword allows you to insta-kill people and break tree leaves instantly.
 
 The Admin MultiTool is just that, a MultiTool, and it allows you to break ANY type of block instantly!
